@@ -4,7 +4,6 @@ void main () {
 	clrscr();
 	printf("This program will note the marks of five subjects and find the average and percentage\n");
 	float maths,science,hindi,english,SST,average,percentage,maxMaths,maxScience,maxHindi,maxEnglish,maxSST;
-	char answer;
 	printf("Input the marks in maths:");
 	scanf("%f",&maths);
 	printf("Input the marks in science:");
