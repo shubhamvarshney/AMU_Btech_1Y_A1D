@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<conio.h>
-int main () {
+void  main () {
+       clrscr() ;
 	int num1,num2;
 	printf("This program will swap two integers using only two variables\n");
 	printf("Input the first number:");
