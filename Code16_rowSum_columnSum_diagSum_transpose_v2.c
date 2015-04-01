@@ -49,7 +49,7 @@ if(r==c){
 for(i=1,j=1;i<r,j<c;i++,j++){
 eE[0][0]=eE[0][0]+eE[i][j];
 }
-for(i=(r-2),j=0;i>0,j<c;i--,j++){
+for(i=(r-2),j=1;i>0,j<c;i--,j++){
 eE[(r-1)][0]=eE[(r-1)][0]+eE[i][j];
 }
 printf("\nThe sum of left to right diagonal elements and right to left diagonal elements is %d and %d respectively.",eE[0][0],eE[0][0]);
